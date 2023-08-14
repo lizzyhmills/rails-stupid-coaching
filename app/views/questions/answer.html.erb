@@ -1,0 +1,11 @@
+ <div>
+  <%= params[:message] %>
+  <p><em>- You</em></p>
+</div>
+<br>
+<div class="p-3 mb-2 bg-warning text-dark" style="--bs-bg-opacity: .5;">
+<p> <strong><%=@answer %></strong></p>
+<p><em>- Stupid Coach</em></p>
+</div>
+
+<%= link_to "Ask another question", ask_path %>
